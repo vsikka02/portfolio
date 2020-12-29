@@ -152,7 +152,7 @@ function App() {
                   <CodeIcon className = "icons"/>
                 }
                 title="Flight Data Analysis"
-                subheader="Novemvber 2020 - December 2020"
+                subheader="November 2020 - December 2020"
                 className = "card-header"
               />
               <CardMedia
