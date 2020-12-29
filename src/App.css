@@ -69,7 +69,7 @@
 }
 .card-root{
   width: 25vw;
-  height: 72vh;
+  height: 80vh;
 }
 .card-media{
   max-height: 30vh;
@@ -78,7 +78,7 @@
   overflow: hidden;
 }
 .card-content{ 
-  height: 20vh;
+  height: 25vh;
   overflow-y: scroll;
 }
 .welcome-section {
@@ -237,15 +237,9 @@
   overflow-x: scroll;
 }
 .card-actions{
-  min-height: 8vh;
   display: block;
 }
-@media only screen and (max-width: 720px) {
-  .typist-header{
-    font-family: 'Courier New', Courier, monospace;
-    padding-top: 5vh;
-  }
-  
+@media only screen and (max-width: 850px) {
   .App-link {
     color: #61dafb;
   }
@@ -285,7 +279,7 @@
     font-weight: 300; 
     transform-origin: 0 0;
     transform: rotate(90deg);
-    margin-left: 7.5vw;
+    margin-left: 9.5vw;
   }
   .arrows {
     display: block;
@@ -294,8 +288,8 @@
     z-index: 0;
   }
   .card-root{
-    width: 80vw;
-    height: 80vh;
+    width: 65vw;
+    height: 60vh;
   }
   .card-media{
     max-height: 30vh;
@@ -304,7 +298,7 @@
     overflow: hidden;
   }
   .card-content{ 
-    height: 20vh;
+    height: 13vh;
     overflow-y: scroll;
   }
   .welcome-section {
@@ -339,19 +333,12 @@
     transform-origin: 0 0;
     transform: rotate(90deg);
     text-align: center;
-    margin-left: 7.5vw;
+    margin-left: 9.5vw;
   }
   .grid-root {
     padding-top: 10vh;
     padding-bottom: 0vh;
     flex-grow: 1;
-  }
-  
-  .avatar {
-    background-color: red;
-  }
-  .icons {
-    color: #e27d60;
   }
   .navbar {
     padding-bottom: 1vh;
@@ -365,9 +352,6 @@
     background-color: #282c34;
     position: fixed;
     min-width: 100vw;
-  }
-  .tab{
-    background-color: #282c34;
   }
   .resume-section {
     min-height: 90vh;
@@ -411,35 +395,10 @@
     font-weight: 300; 
     transform-origin: 0 0;
     transform: rotate(90deg);
-    margin-left: 8.2vw;
+    margin-left: 11.2vw;
   }
   .icon {
-    height: 7vh !important;
-    width: 7vw !important;
-    margin-left: 2vw;
-  }
-  
-  .linkedin-icon:hover {
-    color: #2867B2;
-  }
-  .spotify-icon:hover {
-    color: #1DB954;
-  }
-  .github-icon:hover {
-    color: #6e5494;
-  }
-  .facebook-icon:hover {
-    color: #4267B2;
-  }
-  .twitter-icon:hover {
-    color: #1DA1F2;
-  }
-  .mail-icon:hover {
-    color: #FF4C4C;
-  }
-  .link {
-    color: white;
-    text-decoration: none;
+    margin-left: 3vw;
   }
   .connection-section {
     min-height: 35vh;
@@ -451,10 +410,6 @@
     font-size: calc(10px + 2vmin);
     color: white;
     padding-top: 3vh;
-  }
-  .download-link {
-    text-decoration: none;
-    color: white;
   }
   .card-link-icon {
     margin-left: 1100%;
@@ -510,7 +465,7 @@
     font-weight: 300; 
     transform-origin: 0 0;
     transform: rotate(90deg);
-    margin-left: 12.5vw;
+    margin-left: 13.5vw;
   }
   .arrows {
     display: block;
@@ -564,19 +519,7 @@
     transform-origin: 0 0;
     transform: rotate(90deg);
     text-align: center;
-    margin-left: 12.5vw;
-  }
-  .grid-root {
-    padding-top: 10vh;
-    padding-bottom: 0vh;
-    flex-grow: 1;
-  }
-  
-  .avatar {
-    background-color: red;
-  }
-  .icons {
-    color: #e27d60;
+    margin-left: 13.5vw;
   }
   .navbar {
     padding-bottom: 1vh;
@@ -590,9 +533,6 @@
     background-color: #282c34;
     position: fixed;
     min-width: 100vw;
-  }
-  .tab{
-    background-color: #282c34;
   }
   .resume-section {
     min-height: 90vh;
@@ -625,7 +565,6 @@
   }
   .download-icon {
     margin-top: 0.75vh;
-  
   }
   .arrows-header3 {
     display: block;
@@ -636,7 +575,7 @@
     font-weight: 300; 
     transform-origin: 0 0;
     transform: rotate(90deg);
-    margin-left: 14.2vw;
+    margin-left: 16.2vw;
     padding-top: none;
     margin-top: -13vh;
   }
@@ -644,29 +583,6 @@
     height: 7vh !important;
     width: 7vw !important;
     margin-left: 2vw;
-  }
-  
-  .linkedin-icon:hover {
-    color: #2867B2;
-  }
-  .spotify-icon:hover {
-    color: #1DB954;
-  }
-  .github-icon:hover {
-    color: #6e5494;
-  }
-  .facebook-icon:hover {
-    color: #4267B2;
-  }
-  .twitter-icon:hover {
-    color: #1DA1F2;
-  }
-  .mail-icon:hover {
-    color: #FF4C4C;
-  }
-  .link {
-    color: white;
-    text-decoration: none;
   }
   .connection-section {
     min-height: 35vh;
@@ -690,5 +606,9 @@
     font-size: 1vh;
     overflow-y: hidden;
     overflow-x: scroll;
+  }
+  .card-actions{
+    min-height: 8vh;
+    display: block;
   }
 }
