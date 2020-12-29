@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.77040535.chunk.css",
+    "main.js": "/portfolio/static/js/main.d326794e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d326794e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2c186a6a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2c186a6a.js.map",
+    "static/js/2.809a4030.chunk.js": "/portfolio/static/js/2.809a4030.chunk.js",
+    "static/js/2.809a4030.chunk.js.map": "/portfolio/static/js/2.809a4030.chunk.js.map",
+    "static/js/3.0b7e1eb1.chunk.js": "/portfolio/static/js/3.0b7e1eb1.chunk.js",
+    "static/js/3.0b7e1eb1.chunk.js.map": "/portfolio/static/js/3.0b7e1eb1.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.77040535.chunk.css.map": "/portfolio/static/css/main.77040535.chunk.css.map",
+    "static/js/2.809a4030.chunk.js.LICENSE.txt": "/portfolio/static/js/2.809a4030.chunk.js.LICENSE.txt",
+    "static/media/Sikka_Vansh.f0e5f13d.pdf": "/portfolio/static/media/Sikka_Vansh.f0e5f13d.pdf",
+    "static/media/SkillFlyer.0c996651.jpg": "/portfolio/static/media/SkillFlyer.0c996651.jpg",
+    "static/media/portfolio_image.89a46f1f.jpg": "/portfolio/static/media/portfolio_image.89a46f1f.jpg",
+    "static/media/resume.b90c681a.jpg": "/portfolio/static/media/resume.b90c681a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c186a6a.js",
+    "static/js/2.809a4030.chunk.js",
+    "static/css/main.77040535.chunk.css",
+    "static/js/main.d326794e.chunk.js"
+  ]
+}
