@@ -59,7 +59,7 @@
   font-weight: 300; 
   transform-origin: 0 0;
   transform: rotate(90deg);
-  margin-left: 5vw;
+  margin-left: 4vw;
 }
 .arrows {
   display: block;
@@ -69,7 +69,7 @@
 }
 .card-root{
   width: 25vw;
-  height: 80vh;
+  height: 82vh;
 }
 .card-media{
   max-height: 30vh;
@@ -113,7 +113,7 @@
   transform-origin: 0 0;
   transform: rotate(90deg);
   text-align: center;
-  margin-left: 5vw;
+  margin-left: 4vw;
 }
 .grid-root {
   padding-top: 10vh;
@@ -184,7 +184,7 @@
   font-weight: 300; 
   transform-origin: 0 0;
   transform: rotate(90deg);
-  margin-left: 5.7vw;
+  margin-left: 4.7vw;
 }
 .icon {
   height: 7vh !important;
