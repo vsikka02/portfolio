@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9e3f8b4.chunk.css",
-    "main.js": "/static/js/main.d326794e.chunk.js",
-    "main.js.map": "/static/js/main.d326794e.chunk.js.map",
+    "main.css": "/static/css/main.c7356712.chunk.css",
+    "main.js": "/static/js/main.f1bfdf4c.chunk.js",
+    "main.js.map": "/static/js/main.f1bfdf4c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aa4576b1.js",
     "runtime-main.js.map": "/static/js/runtime-main.aa4576b1.js.map",
     "static/js/2.809a4030.chunk.js": "/static/js/2.809a4030.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0b7e1eb1.chunk.js": "/static/js/3.0b7e1eb1.chunk.js",
     "static/js/3.0b7e1eb1.chunk.js.map": "/static/js/3.0b7e1eb1.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e9e3f8b4.chunk.css.map": "/static/css/main.e9e3f8b4.chunk.css.map",
+    "static/css/main.c7356712.chunk.css.map": "/static/css/main.c7356712.chunk.css.map",
     "static/js/2.809a4030.chunk.js.LICENSE.txt": "/static/js/2.809a4030.chunk.js.LICENSE.txt",
     "static/media/Sikka_Vansh.f0e5f13d.pdf": "/static/media/Sikka_Vansh.f0e5f13d.pdf",
     "static/media/SkillFlyer.0c996651.jpg": "/static/media/SkillFlyer.0c996651.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.aa4576b1.js",
     "static/js/2.809a4030.chunk.js",
-    "static/css/main.e9e3f8b4.chunk.css",
-    "static/js/main.d326794e.chunk.js"
+    "static/css/main.c7356712.chunk.css",
+    "static/js/main.f1bfdf4c.chunk.js"
   ]
 }
