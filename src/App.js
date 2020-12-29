@@ -91,6 +91,7 @@ function App() {
                 }
                 title="SkillFlyer"
                 subheader="May 2020 - August 2020"
+                className = "card-header"
               />
               <CardMedia
                 className="card-media"
@@ -105,7 +106,7 @@ function App() {
                    them simple subtopics of a overarching class or topic.  
                 </Typography>
               </CardContent>
-              <CardActions disableSpacing>
+              <CardActions disableSpacing className = "card-actions">
                 <IconButton aria-label="share">
                   <GitHubIcon className = "icons" />
                 </IconButton>
@@ -123,6 +124,7 @@ function App() {
                 }
                 title="Course Explorer"
                 subheader="October 2020 - December 2020"
+                className = "card-header"
               />
               <CardMedia
                 className="card-media"
@@ -136,7 +138,7 @@ function App() {
                   temporarily rate a CS course at UIUC.
                 </Typography>
               </CardContent>
-              <CardActions disableSpacing>
+              <CardActions disableSpacing className = "card-actions">
                 <IconButton aria-label="share">
                   <GitHubIcon className = "icons" />
                 </IconButton>
@@ -151,6 +153,7 @@ function App() {
                 }
                 title="Flight Data Analysis"
                 subheader="Novemvber 2020 - December 2020"
+                className = "card-header"
               />
               <CardMedia
                 className="card-media"
@@ -164,7 +167,7 @@ function App() {
                   math courses such as Statistics, and introduce beginner-level Data Analysis.
                 </Typography>
               </CardContent>
-              <CardActions disableSpacing>
+              <CardActions disableSpacing className = "card-actions">
                 <IconButton aria-label="share">
                   <GitHubIcon className = "icons" />
                 </IconButton>
