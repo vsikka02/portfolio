@@ -510,7 +510,7 @@
     font-weight: 300; 
     transform-origin: 0 0;
     transform: rotate(90deg);
-    margin-left: 10.5vw;
+    margin-left: 12.5vw;
   }
   .arrows {
     display: block;
@@ -564,7 +564,7 @@
     transform-origin: 0 0;
     transform: rotate(90deg);
     text-align: center;
-    margin-left: 10.5vw;
+    margin-left: 12.5vw;
   }
   .grid-root {
     padding-top: 10vh;
@@ -620,8 +620,8 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-bottom: 4vh;
-    margin-right: -1vh
+    margin-bottom: 20vh;
+    margin-right: -1vw;
   }
   .download-icon {
     margin-top: 0.75vh;
@@ -636,7 +636,9 @@
     font-weight: 300; 
     transform-origin: 0 0;
     transform: rotate(90deg);
-    margin-left: 12.2vw;
+    margin-left: 14.2vw;
+    padding-top: none;
+    margin-top: -13vh;
   }
   .icon {
     height: 7vh !important;
