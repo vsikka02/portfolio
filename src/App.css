@@ -59,7 +59,7 @@
   font-weight: 300; 
   transform-origin: 0 0;
   transform: rotate(90deg);
-  margin-left: 4vw;
+  margin-left: 4.5vw;
 }
 .arrows {
   display: block;
@@ -113,7 +113,7 @@
   transform-origin: 0 0;
   transform: rotate(90deg);
   text-align: center;
-  margin-left: 4vw;
+  margin-left: 4.5vw;
 }
 .grid-root {
   padding-top: 10vh;
@@ -184,7 +184,7 @@
   font-weight: 300; 
   transform-origin: 0 0;
   transform: rotate(90deg);
-  margin-left: 4.7vw;
+  margin-left: 5vw;
 }
 .icon {
   height: 7vh !important;

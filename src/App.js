@@ -13,7 +13,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import GitHubIcon from '@material-ui/icons/GitHub'
 import CodeIcon from '@material-ui/icons/Code';
-import React, { Component } from 'react'
+import React from 'react'
 import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
 import GetAppRoundedIcon from '@material-ui/icons/GetAppRounded';
@@ -53,7 +53,7 @@ function App() {
           <div>
           <h1 className = "title">Hello, I am Vansh Sikka!</h1>
           </div>
-          <img src={ProfilePicture} className = "profile-picture"/>
+          <img src={ProfilePicture} className = "profile-picture" alt = "profile"/>
           <Typist className = "typist-header">
             <span>CS+Stats Student @ UIUC.</span>
             <Typist.Backspace count={24} delay={1000} />
@@ -108,7 +108,7 @@ function App() {
               </CardContent>
               <CardActions disableSpacing className = "card-actions">
                 <IconButton aria-label="share">
-                  <GitHubIcon className = "icons" />
+                  <GitHubIcon className = "icons" href = ""/>
                 </IconButton>
                 <IconButton aria-label = "link" href = "http://www.skillflyer.com/">
                   <LinkIcon className = "icons"/>
@@ -140,7 +140,7 @@ function App() {
               </CardContent>
               <CardActions disableSpacing className = "card-actions">
                 <IconButton aria-label="share">
-                  <GitHubIcon className = "icons" />
+                  <GitHubIcon className = "icons" href = "https://github.com/vsikka02/CS125-Course-Explorer"/>
                 </IconButton>
               </CardActions>
               </Card>
@@ -169,7 +169,7 @@ function App() {
               </CardContent>
               <CardActions disableSpacing className = "card-actions">
                 <IconButton aria-label="share">
-                  <GitHubIcon className = "icons" />
+                  <GitHubIcon className = "icons" href = "https://github.com/vsikka02/flight-data-analysis-final-project"/>
                 </IconButton>
               </CardActions>
               </Card>
@@ -185,7 +185,7 @@ function App() {
       </div>
       </div>
       <div className = "resume-section" id = "resume-section"> 
-      <img src = {Resume} className = "resume"/>
+      <img src = {Resume} className = "resume" alt = "resume"/>
       <div className = "download-button">
         <a href = {ResumeFile} download = "Sikka_Vansh.pdf" className = "download-link">
           <GetAppRoundedIcon className = "download-icon"/>
