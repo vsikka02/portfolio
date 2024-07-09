@@ -1,12 +1,212 @@
 body {
-  margin: 0;
-  font-family: 'Lato', sans-serif; 
+    background-color: #1b1c1d;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
-}
+  padding-block: 2rem;
+  }
+  
+  .ui {
+    background-color: #1b1c1d !important;
+    color: #ffffff !important;
+  }
+  .ui.menu {
+    background-color: #333333 !important;
+    color:orange !important;
+  }
+  .ui.pointing.menu .item {
+    color:white !important;
+    font-size: 1,.5rem !important;
+    letter-spacing: 0.15rem !important;
+    font-weight: 100!important;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  .ui.pointing.menu .item:hover {
+    border-color:grey !important;
+  }
+
+  .ui.secondary.pointing.menu .active.item {
+    border-color: white;
+  }
+
+  .ui.secondary.pointing.menu .active.item:hover {
+    border-color: white;
+  }
+
+  .typist.style {
+    font-size: 2rem;
+    text-align: center;
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+    font-weight: 50;
+    background-color: black;
+    color: orange;
+ }
+ .Cursor {
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+ }
+
+ .ui.large.header {
+    font-size: 4rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+ }
+
+ .text.style {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+ }
+
+ .key-take-away.badge{
+    background-color: orange;
+    color: white;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+ }
+
+
+ .key-take-away.header{
+    color: whitesmoke !important;
+    font-size: 1.25rem !important;
+    font-weight: 100 !important;
+ }
+
+
+.linkedin {
+    color:white !important;
+ }
+
+ .linkedin.button:hover {
+    color: white !important;
+    background-color: black !important;
+    border: transparent !important;
+ }
+
+.title.component{
+    letter-spacing: 0.3rem !important;
+    font-size: 2.5rem !important;
+    margin: 2rem !important;
+    font-weight: 100 !important;
+ }
+
+ .numbers.area *{
+    color: white !important;
+ }
+
+ .numbers.area {
+    margin-top: 4rem !important;
+    margin-bottom: 2rem !important;
+ }
+
+ .footer.section{
+    background-color: #333333 !important;
+    width: 100% !important;
+    padding: 1rem;
+ }
+
+ .title.component * {
+    color: orange !important;
+ }
+ 
+ .blueprint-card-header{
+    color: black !important;
+    font-size: 2rem !important;
+    border:none !important;
+ }
+
+ .blueprint-card {
+    border-radius: 0 !important;
+    background-color: #ebeced !important;
+ }
+
+.blueprint-card-rating .missing-rating-circle {
+    color: grey !important;
+ }
+
+ .blueprint-card-rating .full-rating-circle {
+    color: orange !important;
+ }
+
+
+
+ .project-card {
+    background-color: #ebeced !important;
+    border-radius: 0 !important;
+    border: none !important;
+ }
+
+ .project-card-image * {
+    padding: 100 !important;
+    border-radius: 0 !important;
+ }
+ .project-card-header {
+    margin-top: 1rem !important;
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+    letter-spacing: 0.1rem !important;
+ }
+
+ .project-card-description {
+    margin-block: 0.8rem !important;
+    line-height: 1.6rem !important;
+
+ }
+
+ .project-card-date {
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem ;
+ }
+
+ .skill-container {
+    background-color: #ebeced !important;
+ }
+
+ .skill-container * {
+    margin-block: 0.4rem !important;
+ }
+
+ .project-card-button-area * {
+    color: black !important;
+    background-color: #ebeced !important;
+    font-weight: lighter !important;
+ }
+ .project-skill.badge {
+    margin-block: 0.5rem !important;
+    margin-inline: 0.3rem !important;
+    background-color: grey;
+ }
+
+ .project-skill.badge.cpp {
+    background-color: orange;
+ }
+
+ .project-skill.badge.java {
+    background-color: red;
+    color: white;
+ }
+
+ .project-skill.badge.html5 {
+    background-color: lightskyblue;
+    color: black;
+ }
+
+ .my-journey-component * {
+    margin-block: 1rem !important;
+
+ }
+
+ .journey-component-timeline-date {
+    color: white !important;
+    font-size: 1.5rem !important;
+ }
